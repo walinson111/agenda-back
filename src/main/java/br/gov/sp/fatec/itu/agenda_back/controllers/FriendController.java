@@ -20,7 +20,7 @@ import br.gov.sp.fatec.itu.agenda_back.entities.Friend;
 
 @RestController
 @RequestMapping("friends")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://walinson.duckdns.org")
 public class FriendController {
 
     @Autowired
