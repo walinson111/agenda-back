@@ -9,6 +9,7 @@ import br.gov.sp.fatec.itu.agenda_back.entities.Friend;
 import br.gov.sp.fatec.itu.agenda_back.repositories.FriendRepository;
 import jakarta.persistence.EntityNotFoundException;
 
+@CrossOrigin
 @Service
 public class FriendService {
 
